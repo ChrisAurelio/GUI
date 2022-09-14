@@ -1,0 +1,73 @@
+<!-- 
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Chris Aurelio, UMass Lowell Computer Science, christopher_aurelio@student.uml.edu
+
+Description: This is a simple personal website created using HTML and CSS. I used it to highlight some photos I've taken in the past, along with linking my photography portfolio. At the bottom, I added a table to showcase some programming languages that I know.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chris Aurelio</title> <!-- Website Name -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to external CSS styles -->
+  </head>
+  <body>
+    <h1>Chris Aurelio: My First Website</h1> <!-- Largest heading. Acting as the title of the website -->
+    <p> <!-- Paragraph acting as a description for the website. It's pretty basic, but I couldn't think of much else to add here that would be fitting. -->
+      Hey there! I'm Chris Aurelio. This is my first website created using HTML and CSS.<br>
+      However, it is not my only website in general. You can find a link to my photography portfolio created with a website builder below.<br>
+    </p>
+    <a href="https://www.chrisaurelio.com">Photography Portfolio</a> <!-- Link to my photography portfolio. -->
+    <br><br><br> <!-- These are break tags to add spacing between the elements. I eventually realized that I could use padding in CSS styles which was a better method, but I left these tags here to show my initial thought process. -->
+    <h2>Some Photos I Have Taken</h2> <!-- Some images that I have taken. They are linked to a website because I figured it might be more reliable than having the photos stored locally when I add the website to GitHub. -->
+    <img src="https://i.imgur.com/2WuqWJM.jpeg" alt="Aston Martin" style="height:200px; padding-left: 5%;">
+    <img src="https://i.imgur.com/4zvHOUL.jpeg" alt="Race Start" style="height:200px;">
+    <img src="https://i.imgur.com/Uzd1AV5.jpg" alt="Fire" style="height:200px;">
+    <img src="https://i.imgur.com/bNkIkl0.jpeg" alt="Long Exposure" style="height:200px;">
+    <br><br><br>
+    <h2>Programming Languages I Have Used</h2> <!-- Second header introducing a new section for the programming languages I know. -->
+    <table> <!-- Table with the languages that I know, along with my familiarity of each out of 10. -->
+      <tr>
+        <th>Language</th>
+        <th>Familiarity (out of 10)</th>
+      </tr>
+      <tr>
+        <td>C++</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Node.js</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>1</td>
+      </tr>
+    </table>
+    <p style="padding-top: 5%; padding-right: 95%;">
+      <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+              alt="Valid CSS!" />
+          </a>
+      </p>
+  </body>
+</html>
