@@ -1,0 +1,58 @@
+/* This is the body styling. It sets the background color to black, text color to white, and adds a slight padding from the top so that the first heading is not right next to the top. */
+body { 
+    background-color: black;
+    color: azure;
+    padding-top: 2%;
+}
+
+/* This is the styling for the top heading which is acting as a title. It sets the font to Helvetica, makes the text bold, centers the title, and adds a slight bit of padding to the bottom for spacing. */
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/* This is the styling for the second heading. It sets the font to Helvetica, makes the text bold, and adds a bit of padding to the left so the elements isn't right up against the left side of the screen. */
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+/* This is the styling for the paragraph. It sets the font to Helvetica, and adds a bit of padding to the left so the elements isn't right up against the left side of the screen. */
+p {
+    font-family: Helvetica, sans-serif;
+    padding-left: 5%;
+}
+
+/* This is the styling for the portfolio link. It sets the font to Helvetica, and adds a bit of padding to the left so the elements isn't right up against the left side of the screen. */
+a {
+    font-family: Helvetica, sans-serif;
+    padding-left: 5%;
+}
+
+/* This is the styling for the link when you hover over it. It changes the color to pink. */
+a:hover {
+    color: hotpink;
+}
+
+/* This is the styling for the link after you visit it. It changes the color to aqua. */
+a:visited {
+    color: aqua;
+}
+
+/* This is the styling for the table. It adds some padding to the left side, fixes the width to 500px wide, creates a 2px white border, adds a border radius to round the edges, changes the font to Helvetica, centers the text, adds weight to the text, and adds some padding to the top and bottom of the table boxes so the tables boxes have some height to them. */
+table {
+    padding-left: 5%;
+    width: 500px;
+}
+th, td {
+    border: 2px solid azure;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 550;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
