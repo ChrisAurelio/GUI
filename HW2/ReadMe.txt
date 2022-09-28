@@ -1,2 +1,2 @@
-https://ChrisAurelio.github.io/hw2/index.html
+https://ChrisAurelio.github.io/HW2/index.html
 https://github.com/ChrisAurelio/ChrisAurelio.github.io
